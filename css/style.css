@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&display=swap');
+
+/* font-family: 'Lobster', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    height: 650px;
+}
+
+#header-section {
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-container {
+    height: 650px;
+    background-image: linear-gradient(360deg, #121212 -14.13%, rgba(18, 18, 18, 0) 85.87%);
+    border: 1px solid #000000;
+}
+
+.container-items {
+    position: absolute;
+    width: 826px;
+    height: 320px;
+    left: 307px;
+    top: 174px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#header-section h2,
+#donate-plan-section h2,
+#donate-section h2,
+#our-works h2,
+#updates h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+    margin-top: 130px;
+}
+
+#header-section p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 30px 80px;
+}
+
+a.donate-button {
+    text-decoration: none;
+    padding: 16px 12px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF5959;
+    border-radius: 5px;
+}
+
+#donate-section {
+    text-align: center;
+}
+
+#donate-section p,
+#donate-plan-section .plan-header p,
+#updates p {
+    margin: 30px 400px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+}
+
+.button-area {
+    margin: 100px 0;
+}
+
+.button-area a {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    text-decoration: none;
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 40px 25px;
+    margin-left: 5px;
+}
+
+.button-area a:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+}
+
+.donate-container input {
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    width: 50%;
+    height: 40px;
+    margin: 40px 0;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.donate-container a.donate-button {
+
+    width: 10%;
+}
+
+.plan-items {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.item {
+    width: 360px;
+    margin: 10px 20px;
+    background-color: rgba(255, 89, 89, 0.1);
+    padding: 60px 50px;
+}
+
+.item h3 {
+    margin: 30px 0;
+}
+
+.item p {
+    padding-right: 40px;
+}
+
+.item:hover {
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+}
+
+#contribute-section {
+    margin: 20px 60px;
+}
+
+#contribute-section h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    width: 490px;
+    color: #121212;
+
+}
+
+#contribute-section .part-one,
+#contribute-section .part-two {
+    display: flex;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.section-details {
+    width: 100%;
+}
+
+#contribute-section p {
+    margin-bottom: 40px;
+}
+
+.section-img img {
+    width: 80%;
+}
+
+
+#our-works {
+    margin: 400px 0 0 0;
+    text-align: center;
+}
+
+
+
+#our-works .gallery img {
+    margin: 0 5px;
+    width: 20%;
+}
+
+#our-works .gallery img:hover {
+    transform: scale(1.5);
+}
+
+.header-work {
+    margin: 80px 0;
+}
+
+#updates {
+    height: 300px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.input-section {
+    background: #FFF4D6;
+    height: 200px;
+    margin: 10px 150px;
+    padding-top: 50px;
+}
+
+.input-section input {
+    border: none;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    width: 400px;
+    height: 48px;
+    color: #0B0D17;
+    margin-top: 50px;
+}
+
+button {
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    width: 157px;
+    height: 48px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#footer-section {
+    height: 150px;
+    background-color: #0B0D17;
+}
+
+.footer-area {
+    text-align: center;
+    color: #D9DBE1;
+    padding-top: 20px;
+}
+
+.site-id h3 {
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    margin-top: 30px;
+}
